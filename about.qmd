@@ -1,9 +1,41 @@
 ---
 title: "About"
+about:
+  id: hero-heading
+  template: jolla
+  image: pic1.jpg
+  links:
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app
+    - icon: github
+      text: Github
+      href: https://github.com/miafranco367
 ---
 
-About this site
+:::{#hero-heading}
 
-```{r}
-1 + 1
-```
+Mia B. Franco is a graduate student in Forest Sciences at Colorado State University, Fort Collins. She is studying the longevity of fuel treatments. Outside of her work, she likes backpacking, running, and hiking.
+
+## Education
+
+University of California, Berkeley \| Berkeley, CA\
+B.S. in Forest Ecology and Management\
+B.S. in Society and Environment \
+Ecosystem Management and Forestry Minor \| Aug 2021 - December 2024
+
+UC Berkeley Forestry Field Camp \| Meadow Valley, California, United States \| June 2022 - Aug 2022
+
+## Experience
+
+Macrosystems Ecology Laboratory, UC Berkeley \| Research Assistant \| Jan 2024 - Dec 2024
+
+Forest and Woodland Ecology Lab, UC Berkeley \| Laboratory Technician \| Oct 2023 - Dec 2024
+
+Santa Rosa Junior College \| Wildfire Mitigation Force Forest Intern \| Jun 2023 - Aug 2023
+
+California Department of Forestry and Fire Protection (CAL FIRE) \| Forestry Aide \| May 2023 - Aug 2023
+
+Zero Waste Laboratory, UC Berkeley \| Research Assistant \| Jan 2022 - May 2022
+
+:::

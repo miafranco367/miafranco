@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Mia B. Franco">
 
-<title>About – miafranco</title>
+<title>Research – miafranco</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -37,6 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -74,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -96,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -104,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Research.html"> 
+    <a class="nav-link active" href="./Research.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
   </li>  
 </ul>
@@ -118,53 +120,35 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-jolla">
-  <img src="pic1.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Research</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Mia B. Franco </p>
+          </div>
   </div>
-</header><div id="hero-heading">
-<p>Mia B. Franco is a graduate student in Forest Sciences at Colorado State University, Fort Collins. She is studying the longevity of fuel treatments. Outside of her work, she likes backpacking, running, and hiking.</p>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<p>University of California, Berkeley | Berkeley, CA<br>
-B.S. in Forest Ecology and Management<br>
-B.S. in Society and Environment<br>
-Ecosystem Management and Forestry Minor | Aug 2021 - December 2024</p>
-<p>UC Berkeley Forestry Field Camp | Meadow Valley, California, United States | June 2022 - Aug 2022</p>
-</section>
-<section id="experience" class="level2">
-<h2 data-anchor-id="experience">Experience</h2>
-<p>Macrosystems Ecology Laboratory, UC Berkeley | Research Assistant | Jan 2024 - Dec 2024</p>
-<p>Forest and Woodland Ecology Lab, UC Berkeley | Laboratory Technician | Oct 2023 - Dec 2024</p>
-<p>Santa Rosa Junior College | Wildfire Mitigation Force Forest Intern | Jun 2023 - Aug 2023</p>
-<p>California Department of Forestry and Fire Protection (CAL FIRE) | Forestry Aide | May 2023 - Aug 2023</p>
-<p>Zero Waste Laboratory, UC Berkeley | Research Assistant | Jan 2022 - May 2022</p>
-</section>
-</div> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://bsky.app" class="about-link" rel="" target="">
-    <i class="bi bi-bluesky"></i>
-     <span class="about-link-text">Bluesky</span>
-  </a>
-  <a href="https://github.com/miafranco367" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-</div>
-</div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 
@@ -173,6 +157,13 @@ Ecosystem Management and Forestry Minor | Aug 2021 - December 2024</p>
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

@@ -2,7 +2,6 @@
 title: "Mia B. Franco"
 image: pic2.jpg
 about: 
-  id: hero-heading
   template: jolla
   image-shape: rounded
   image-width: 15em
@@ -15,9 +14,7 @@ about:
       href: mailto:m.franco@colostate.edu
 ---
 
-::: {#hero-heading}
 Mia B. Franco is a graduate student in Forest Sciences at Colorado State University, Fort Collins.
-:::
 
 Education:
 
