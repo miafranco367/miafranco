@@ -3,8 +3,8 @@ title: "Mia B. Franco"
 image: pic2.jpg
 about: 
   template: jolla
-  image-shape: rounded
-  image-width: 15em
+  image-shape: round
+  image-width: 17em
   links:
     - text: LinkedIn
       href: https://www.linkedin.com/in/mia-franco-a39bb853

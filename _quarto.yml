@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "miafranco"
+  title: "Mia B. Franco"
   navbar:
     left:
       - href: index.qmd
@@ -15,10 +15,12 @@ website:
 format:
   html:
     theme:
-      - pulse
-      - brand
+      light: pulse
+      dark: slate
+     
     css: styles.css
     toc: true
+    page-layout: full
 
 editor: visual
 
